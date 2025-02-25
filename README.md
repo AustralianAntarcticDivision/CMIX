@@ -1,1 +1,5 @@
 # CMIX
+
+CMIX fits a mixture distribution to length-density distributions derived from net-survey data. The function of the program is similar to the well known method of MacDonald and Pitcher (1979). However, the mixture distribution is fitted using a maximum likelihood estimator that assumes that the length-density data have an Aitcheson delta distribution (Aitcheson, 1955).
+
+This distribution is more suitable for describing densities estimated from net haul surveys because it provides for the possibility that a given survey haul will be empty; the delta distribution includes a log-normal distribution for the non-zero density observations and a finite probability for a zero density estimate. The current version of CMIX allows only for a mixture of normal distributions each with characteristic means and standard deviations of length.
